@@ -1,5 +1,6 @@
 var Buffer = require('safe-buffer').Buffer
-var Transform = require('stream').Transform
+//var Transform = require('stream').Transform
+import Transform from 'stream'
 var StringDecoder = require('string_decoder').StringDecoder
 var inherits = require('inherits')
 
